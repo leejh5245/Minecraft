@@ -104,7 +104,7 @@
     display: inline-block;
     width: 1em;
     height: 1em;
-    background: url('images/naver blog.svg') no-repeat center center;
+    background: url("images/naverblog.svg") no-repeat center center;
     background-size: contain;
 }
 
