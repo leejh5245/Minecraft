@@ -4687,3 +4687,11 @@ input, select, textarea {
 		}
 
 	}
+	.fa-naver:before {
+		content: '';
+		display: inline-block;
+		width: 1em;
+		height: 1em;
+		background: url("images/naverblog.svg") no-repeat center center;
+		background-size: contain;
+	}
