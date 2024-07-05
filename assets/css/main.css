@@ -4692,6 +4692,7 @@ input, select, textarea {
 		display: inline-block;
 		width: 1em;
 		height: 1em;
-		background: url("images/naverblog.svg") no-repeat center center;
-		background-size: contain;
+		background: url("images/naverblog.svg") no-repeat center center !important;
+		background-size: contain !important;
 	}
+	
