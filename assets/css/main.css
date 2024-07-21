@@ -4687,12 +4687,20 @@ input, select, textarea {
 		}
 
 	}
-	.fa-naver:before {
-		content: '';
+	.icons .icon.naver-blog img {
+		width: 2em; /* 아이콘 크기를 다른 아이콘들과 맞추기 */
+		height: 2em; /* 아이콘 크기를 다른 아이콘들과 맞추기 */
+		fill: currentColor; /* SVG 아이콘 색상을 텍스트 색상과 일치시키기 */
+		vertical-align: middle; /* 텍스트와 정렬 맞추기 */
+	}
+	.icons .icon.naver-blog {
+		width: 2em; /* 부모 요소의 크기를 제한하여 아이콘의 크기를 조정 */
+		height: 2em; /* 부모 요소의 크기를 제한하여 아이콘의 크기를 조정 */
 		display: inline-block;
-		width: 1em;
-		height: 1em;
-		background: url("images/naverblog.svg") no-repeat center center !important;
-		background-size: contain !important;
+	}
+	.icons .icon {
+		text-decoration: none;
+		border: 0;
+		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	}
 	
