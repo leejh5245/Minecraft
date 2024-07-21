@@ -4704,3 +4704,14 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	}
 	
+	@font-face {
+		font-family: 'BarunHippo';
+		src: url('../fonts/바른히피.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	body, input, select, textarea {
+		font-family: 'BarunHippo', sans-serif;
+	}
+	
+	
