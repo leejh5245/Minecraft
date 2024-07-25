@@ -3281,6 +3281,19 @@ input, select, textarea {
 
 		}
 
+		/* page-index1 클래스를 위한 배경 이미지 */
+.page-index1 #wrapper > .bg {
+	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+}
+
+/* page-index2 클래스를 위한 배경 이미지 */
+.page-index2 #wrapper > .bg {
+	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg2.jpg");
+}
+
+.page-index3 #wrapper > .bg {
+	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg3.jpg");
+}
 /* Intro */
 
 	#intro {
